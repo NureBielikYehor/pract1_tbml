@@ -1,0 +1,12 @@
+.idea/
+node_modules/
+.venv/
+__pycache__/
+data/
+reports/
+*.log
+.env
+.env.*
+*.pem
+*.key
+/ПЗ 1 - Власний блокчейн з нуля.docx

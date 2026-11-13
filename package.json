@@ -1,0 +1,17 @@
+{
+  "name": "pract1_tbml",
+  "version": "1.0.0",
+  "description": "A small account-based blockchain with signed transactions, PoW and three independent nodes",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node scripts/network.js",
+    "node": "node index.js node",
+    "test": "node --test tests/*.test.js",
+    "demo": "node scripts/demo.js",
+    "attacks": "node scripts/attacks.js",
+    "experiment": "node scripts/experiment.js"
+  },
+  "engines": { "node": ">=22" },
+  "private": true
+}
